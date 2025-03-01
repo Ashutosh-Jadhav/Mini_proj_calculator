@@ -1,3 +1,3 @@
 # mini_proj_calc
 
-- exciting stuff
+- exciting stuff really
