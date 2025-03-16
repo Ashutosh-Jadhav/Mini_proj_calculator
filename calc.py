@@ -1,4 +1,3 @@
-import math
 from fun import *
 
 while 1:
