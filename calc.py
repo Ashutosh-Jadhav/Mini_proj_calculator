@@ -5,7 +5,7 @@ while 1:
     while choice < 1 or choice > 5:
         choice = int(input("Wrong Choice! Choose a option between 1-4: "))
     if choice == 1:
-        num = int(input("Enter value of x : "))
+        num = int(input("Enter value of x  : "))
         while num < 1 :
             num = int(input("cannot find square root! x should be positive : "))
         res = sqrt(num)
