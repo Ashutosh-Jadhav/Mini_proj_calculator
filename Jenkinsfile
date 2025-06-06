@@ -28,7 +28,7 @@ pipeline {
         stage('Build Docker Image') {
             steps {
                 script {
-                    docker.build("${DOCKER_IMAGE_NAME}" , ".")
+                    docker.build("${DOCKER_IMAGE_NAME}" , "--no-cache .")
                 }
             }
         }
