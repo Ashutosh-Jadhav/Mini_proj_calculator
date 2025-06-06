@@ -1,8 +1,8 @@
 from fun import *
 
 while 1:
-    choice = int(input("1. Square root function - √x\n2.Factorial function - x!\n3.Natural logarithm (base е) - ln(x)\n4.Power function - x^b\n5. exit\nchoice : "))
-    while choice < 1 or choice > 5:
+    choice = int(input("1. Square root function - √x\n2.Factorial function - x!\n3.Natural logarithm (base е) - ln(x)\n4.Power function - x^b\n5. Add \n6. exit\nchoice : "))
+    while choice < 1 or choice > 6:
         choice = int(input("Wrong Choice! Choose a option between 1-4: "))
     if choice == 1:
         num = int(input("Enter value of x  : "))
@@ -29,6 +29,10 @@ while 1:
             b = int(input("Base should be positive : "))
         res = power(num,b)
         print(f"x^b for x = {num} b = {b} is {res}")
+    elif choice == 5 :
+        num1 = int(input("Enter first Number : "))
+        num2 = int(input("Enter Second Number : "))
+        print(num1+num2)
     else :
         exit()
 

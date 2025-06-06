@@ -23,3 +23,6 @@ def natural_log(x):
     if x <= 0:
         raise ValueError("Log is undefined for x <= 0")
     return math.log(x)
+
+def Addition(x,y):
+    return x+y
